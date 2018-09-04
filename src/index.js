@@ -9,7 +9,8 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import reducer from './store/reducer';
 
-const store = createStore(reducer);
+const redux_chrome_devtool = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__;
+const store = createStore(reducer, redux_chrome_devtool() );
 
 const app = (
     <Provider store={store}>
