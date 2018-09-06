@@ -1,5 +1,8 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+# Firebase REST Uth API key
+/src/store/actions/.API_KEYS.js
+
 # dependencies
 /node_modules
 
@@ -19,3 +22,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+
+
